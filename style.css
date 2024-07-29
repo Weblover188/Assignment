@@ -1,14 +1,45 @@
 .full-body{
     width:100%;
-    margin:5%
+    font-family: "Quicksand", Arial, sans-serif;
 }
 .sidebar{
-    width:25%;
+    width:20%;
     float:left;
-    background-color:lightgray;
+    background-color:#F2F3F7;
     text-align: center;
+    overflow: auto;
+    height:500px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position:fixed;
+    margin-left: 5%;
 }
 .main{
-    width:75%;
+    width:69%;
     float:right;
+    margin-right: 5%;
+}
+.profile{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+.nav-links{
+    list-style-type: none;
+    line-height: 35px;
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+
+}
+.home{
+    background-image: url(./assets/homebg.jpg);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+.hometext{
+    padding-top:20%;
+    padding-bottom: 20%;
+    padding-left:5%;
+    padding-right: 30%;
 }
