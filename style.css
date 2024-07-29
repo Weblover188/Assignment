@@ -58,6 +58,7 @@
 .aservices{
     padding-left:5%;
     padding-right:5%;
+    padding-bottom: 5%;
 }
 .box1{
     width: 150px;
@@ -102,4 +103,11 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #A84CB8;
+}
+.hireme{
+    padding:5%;
+}
+.hiremetext{
+    padding:5%;
+    background-color: #F9BF3F;
 }
