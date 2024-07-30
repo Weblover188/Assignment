@@ -219,3 +219,41 @@
 .container{
     padding:2%;
 }
+.project{
+    background-image: url(./assets/coverbg1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color:#ffffff;
+    background-attachment: fixed;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    position: relative;
+}
+.overlay{
+    padding:5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+.skillstext{
+    padding: 5%;
+}
+.progress-bar.color-1{
+    background:#2c98f0;
+}
+.progress-bar.color-2{
+    background:#EC5453;
+}
+.progress-bar.color-3{
+    background:#F9BF3F;
+}
+.progress-bar.color-4{
+    background:#A84CB8;
+}
+.progress-bar.color-5{
+    background:#2FA499;
+}
+.progress-bar.color-6{
+    background:#4054B2;
+}
