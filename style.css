@@ -34,7 +34,7 @@
 
 }
 .home{
-    background-image: url(./assets/homebg1.jpg);
+    background-image: url(./assets/homebg2.jpg);
     background-size: 100% 700px;
     background-repeat: no-repeat;
 }
@@ -71,6 +71,9 @@
     float:left;
     border-bottom: 1px solid #2C98F0;
 }
+.box1 i{
+    font-size: 35px;
+}
 .box2{
     width: 150px;
     height: 100px;
@@ -81,6 +84,9 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #EC5453;
+}
+.box2 i{
+    font-size: 35px;
 }
 .box3{
     width: 150px;
@@ -93,6 +99,9 @@
     float:left;
     border-bottom: 1px solid #F9BF3F;
 }
+.box3 i{
+    font-size: 35px;
+}
 .box4{
     width: 150px;
     height: 100px;
@@ -104,10 +113,109 @@
     float:left;
     border-bottom: 1px solid #A84CB8;
 }
+.box4 i{
+    font-size: 35px;
+}
 .hireme{
     padding:5%;
 }
 .hiremetext{
     padding:5%;
     background-color: #F9BF3F;
+}
+.servicestext{
+    padding:5%;
+}
+.servicebox1{
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    float:left;
+    border-bottom: 1px solid #2C98F0;
+}
+.servicebox1 i{
+    font-size: 40px;
+    background-color: #2C98F0;
+    padding:6%;
+    color:#ffffff;
+}
+.servicebox2{
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    float:left;
+    border-bottom: 1px solid #EC5453;
+}
+.servicebox2 i{
+    font-size: 40px;
+    background-color: #EC5453;
+    padding:6%;
+    color:#ffffff;
+}
+.servicebox3{
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    float:left;
+    border-bottom: 1px solid #F9BF3F;
+}
+.servicebox3 i{
+    font-size: 40px;
+    background-color: #F9BF3F;
+    padding:6%;
+    color:#ffffff;
+}
+.servicebox4{
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    float:left;
+    border-bottom: 1px solid #A84CB8;
+}
+.servicebox4 i{
+    font-size: 40px;
+    background-color: #A84CB8;
+    padding:6%;
+    color:#ffffff;
+}
+.servicebox5{
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    float:left;
+    border-bottom: 1px solid #2FA499;
+}
+.servicebox5 i{
+    font-size: 40px;
+    background-color: #2FA499;
+    padding:6%;
+    color:#ffffff;
+}
+.servicebox6{
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    float:left;
+    border-bottom: 1px solid #4054B2;
+}
+.servicebox6 i{
+    font-size: 40px;
+    background-color: #4054B2;
+    padding:6%;
+    color:#ffffff;
+}
+.container{
+    padding:2%;
 }
