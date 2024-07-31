@@ -62,56 +62,60 @@
 }
 .box1{
     width: 150px;
-    height: 100px;
+    height: 150px;
     background-color: #ffffff;
     text-align: center;
     color: #2C98F0;
-    padding:5%;
+    padding:7%;
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #2C98F0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .box1 i{
     font-size: 35px;
 }
 .box2{
     width: 150px;
-    height: 100px;
+    height: 150px;
     background-color: #ffffff;
     text-align: center;
     color: #EC5453;
-    padding:5%;
+    padding:7%;
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #EC5453;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .box2 i{
     font-size: 35px;
 }
 .box3{
     width: 150px;
-    height: 100px;
+    height: 150px;
     background-color: #ffffff;
     text-align: center;
     color: #F9BF3F;
-    padding:5%;
+    padding:7%;
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #F9BF3F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .box3 i{
     font-size: 35px;
 }
 .box4{
     width: 150px;
-    height: 100px;
+    height: 150px;
     background-color: #ffffff;
     text-align: center;
     color: #A84CB8;
-    padding:5%;
+    padding:7%;
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #A84CB8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .box4 i{
     font-size: 35px;
@@ -134,6 +138,7 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #2C98F0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicebox1 i{
     font-size: 40px;
@@ -149,6 +154,7 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #EC5453;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicebox2 i{
     font-size: 40px;
@@ -164,6 +170,7 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #F9BF3F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicebox3 i{
     font-size: 40px;
@@ -179,6 +186,7 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #A84CB8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicebox4 i{
     font-size: 40px;
@@ -194,6 +202,7 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #2FA499;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicebox5 i{
     font-size: 40px;
@@ -209,6 +218,7 @@
     font-weight: bold;
     float:left;
     border-bottom: 1px solid #4054B2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicebox6 i{
     font-size: 40px;
@@ -238,6 +248,10 @@
 }
 .skillstext{
     padding: 5%;
+}
+.progress-wrap{
+    padding:5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .progress-bar.color-1{
     background:#2c98f0;
@@ -445,4 +459,73 @@
 .accordion-checkbox-5:checked ~ .accordion-label-5 {
     background-color: #2C98F0;
     color:#ffffff;
+}
+.experiencetext{
+    padding: 5%;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+}
+
+.timeline-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #EC5453;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #fff;
+    align-items: center;
+}
+
+.timeline-content {
+    padding: 20px;
+    background-color: #F2F3F7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.timeline-content .date {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+#E1{
+    background-color: #2C98F0;
+}
+#E2{
+    background-color: #EC5453;
+}
+#E3{
+    background-color: #F9BF3F;
+}
+#E4{
+    background-color: #A84CB8;
+}
+#E5{
+    background-color: #2FA499;
 }
