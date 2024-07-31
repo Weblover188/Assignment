@@ -257,3 +257,192 @@
 .progress-bar.color-6{
     background:#4054B2;
 }
+
+.educationtext{
+    padding: 5%;
+}
+
+.accordion {
+    width: 100%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+
+
+.active .accordion-lable-1:hover {
+    background-color: #ccc;
+}
+.accordion-checkbox-1 {
+    display: none;
+    
+}
+.accordion-label-1 {
+    display: block;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+.accordion-content-1 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    padding: 0 15px;
+}
+.accordion-checkbox-1:checked ~ .accordion-content-1 {
+    max-height: 150px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5%;
+}
+.accordion-checkbox-1:checked ~ .accordion-label-1 {
+    background-color: #2C98F0;
+    color:#ffffff;
+}
+
+
+
+.active .accordion-lable-2:hover {
+    background-color: #ccc;
+}
+.accordion-checkbox-2 {
+    display: none;
+}
+.accordion-label-2 {
+    display: block;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+.accordion-content-2 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    padding: 0 15px;
+}
+.accordion-checkbox-2:checked ~ .accordion-content-2 {
+    max-height: 150px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5%;
+}
+.accordion-checkbox-2:checked ~ .accordion-label-2 {
+    background-color: #2C98F0;
+    color:#ffffff;
+}
+
+
+
+.active .accordion-lable-3:hover {
+    background-color: #ccc;
+}
+.accordion-checkbox-3 {
+    display: none;
+}
+.accordion-label-3 {
+    display: block;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+.accordion-content-3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    padding: 0 15px;
+}
+.accordion-checkbox-3:checked ~ .accordion-content-3 {
+    max-height: 150px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5%;
+}
+.accordion-checkbox-3:checked ~ .accordion-label-3 {
+    background-color: #2C98F0;
+    color:#ffffff;
+}
+
+
+
+.active .accordion-lable-4:hover {
+    background-color: #ccc;
+}
+.accordion-checkbox-4 {
+    display: none;
+}
+.accordion-label-4 {
+    display: block;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+.accordion-content-4 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    padding: 0 15px;
+}
+.accordion-checkbox-4:checked ~ .accordion-content-4 {
+    max-height: 150px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5%;
+}
+.accordion-checkbox-4:checked ~ .accordion-label-4 {
+    background-color: #2C98F0;
+    color:#ffffff;
+}
+
+
+
+.active .accordion-lable-5:hover {
+    background-color: #ccc;
+}
+.accordion-checkbox-5 {
+    display: none;
+}
+.accordion-label-5 {
+    display: block;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+.accordion-content-5 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.accordion-checkbox-5:checked ~ .accordion-content-5 {
+    max-height: 500px;
+}
+.accordion-checkbox-5:checked ~ .accordion-label-5 {
+    background-color: #2C98F0;
+    color:#ffffff;
+}
