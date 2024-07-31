@@ -529,3 +529,82 @@
 #E5{
     background-color: #2FA499;
 }
+
+.worktext{
+    padding: 5%;
+}
+
+.work-item-1{
+    background-image: url(./assets/work-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.work-item-2{
+    background-image: url(./assets/work-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.work-item-3{
+    background-image: url(./assets/work-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.work-item-4{
+    background-image: url(./assets/work-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.work-item-5{
+    background-image: url(./assets/work-5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.work-item-6{
+    background-image: url(./assets/work-6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.work-caption{
+    height: 300px;
+    width: 100%;
+    padding: 5%;
+}
