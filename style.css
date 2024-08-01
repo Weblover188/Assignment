@@ -9,16 +9,61 @@
     text-align: center;
     overflow: auto;
     height: 600px;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
     position:fixed;
     margin-left: 5%;
+    font-size: 13px;
+    color: #6C757D;
+    font-family: Quicksand , Arial , sans-serif;
 }
+.sidebar h3{
+    font-family: "Playfair Display" , Georgia , serif;
+    font-size: 22px;
+    font-weight:700;
+    color:black;
+}
+.sidebar h5{
+    font-size: 12px;
+    color: #6C757D;
+    font-family: Quicksand , Arial , sans-serif;
+}
+
+.sidebar a{
+    color: #6C757D;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-stretch:extra-expanded;
+}
+
+.sidebar a:hover{
+    color:#2C98F0;
+    text-decoration: underline;
+}
+
+
 .main{
     width:69%;
     float:right;
     margin-right: 5%;
     background-color: #FCFCFC;
+    font-family: Quicksand , Arial , sans-serif;
+}
+
+.starttext{
+
+    font-family: Quicksand, Arial, sans-serif;
+    text-decoration: none solid rgb(153, 153, 153);
+    color: RGB(153, 153, 153);
+    font-size:14px;
+
+}
+
+h1{
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 18px;
+    font-weight:600;
+    color:black;
 }
 .profile{
     width:150px;
@@ -48,6 +93,18 @@
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
 }
+.hometext h1{
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 60px;
+}
+
+.hometext .btn-learn{
+    color: #000;
+    border: 1px solid #000;
+    background: transparent !important;
+    padding:2%;
+}
+
 .abouttext{
     padding:5%;
     font-weight: 400;
@@ -55,6 +112,15 @@
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
 }
+
+.hiremetext .btn-learn{
+    color: #000;
+    border: 1px solid #000;
+    background: transparent !important;
+    padding-left:5%;
+    padding-right:5%;
+}
+
 .aservices{
     padding-left:5%;
     padding-right:5%;
@@ -126,6 +192,16 @@
 .hiremetext{
     padding:5%;
     background-color: #F9BF3F;
+    color:black;
+    font-family: "Playfair Display",Georgia,serif;
+
+}
+.hiremetext .btn-learn{
+    color: #000;
+    border: 1px solid #000;
+    background: transparent !important;
+    padding-left:5%;
+    padding-right:5%;
 }
 .servicestext{
     padding:5%;
@@ -643,3 +719,5 @@
 .contacttext .row .col-md-6 .row{
     margin-bottom: 5%;
 }
+
+
