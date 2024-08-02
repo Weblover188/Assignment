@@ -79,9 +79,10 @@ h1{
 
 }
 .home{
-    background-image: url(./assets/homebg2.jpg);
-    background-size: 100% 700px;
+    background-image: url(./assets/homebg6.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .hometext{
     padding-top:15%;
@@ -95,7 +96,8 @@ h1{
 }
 .hometext h1{
     font-family: "Playfair Display", Georgia, serif;
-    font-size: 60px;
+    font-size: 50px;
+
 }
 
 .hometext .btn-learn{
