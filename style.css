@@ -206,6 +206,11 @@ h1{
 .servicestext{
     padding:5%;
 }
+
+#container2
+{
+    margin-top: 5%;
+}
 .servicebox1{
     height: auto;
     background-color: #ffffff;
@@ -216,11 +221,23 @@ h1{
     border-bottom: 1px solid #2C98F0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
 .servicebox1 i{
     font-size: 40px;
     background-color: #2C98F0;
-    padding:6%;
     color:#ffffff;
+    padding: 12%;
+    clip-path: polygon(
+        50% 0%,
+        100% 25%,
+        100% 75%,
+        50% 100%,
+        0% 75%,
+        0% 25%
+    );
+    transform: translateY(-50%);
 }
 .servicebox2{
     height: auto;
@@ -235,8 +252,17 @@ h1{
 .servicebox2 i{
     font-size: 40px;
     background-color: #EC5453;
-    padding:6%;
     color:#ffffff;
+    padding: 12%;
+    clip-path: polygon(
+        50% 0%,
+        100% 25%,
+        100% 75%,
+        50% 100%,
+        0% 75%,
+        0% 25%
+    );
+    transform: translateY(-50%);
 }
 .servicebox3{
     height: auto;
@@ -251,8 +277,17 @@ h1{
 .servicebox3 i{
     font-size: 40px;
     background-color: #F9BF3F;
-    padding:6%;
     color:#ffffff;
+    padding: 12%;
+    clip-path: polygon(
+        50% 0%,
+        100% 25%,
+        100% 75%,
+        50% 100%,
+        0% 75%,
+        0% 25%
+    );
+    transform: translateY(-50%);
 }
 .servicebox4{
     height: auto;
@@ -267,8 +302,17 @@ h1{
 .servicebox4 i{
     font-size: 40px;
     background-color: #A84CB8;
-    padding:6%;
     color:#ffffff;
+    padding: 12%;
+    clip-path: polygon(
+        50% 0%,
+        100% 25%,
+        100% 75%,
+        50% 100%,
+        0% 75%,
+        0% 25%
+    );
+    transform: translateY(-50%);
 }
 .servicebox5{
     height: auto;
@@ -283,8 +327,17 @@ h1{
 .servicebox5 i{
     font-size: 40px;
     background-color: #2FA499;
-    padding:6%;
     color:#ffffff;
+    padding: 12%;
+    clip-path: polygon(
+        50% 0%,
+        100% 25%,
+        100% 75%,
+        50% 100%,
+        0% 75%,
+        0% 25%
+    );
+    transform: translateY(-50%);
 }
 .servicebox6{
     height: auto;
@@ -299,8 +352,17 @@ h1{
 .servicebox6 i{
     font-size: 40px;
     background-color: #4054B2;
-    padding:6%;
     color:#ffffff;
+    padding: 12%;
+    clip-path: polygon(
+        50% 0%,
+        100% 25%,
+        100% 75%,
+        50% 100%,
+        0% 75%,
+        0% 25%
+    );
+    transform: translateY(-50%);
 }
 .container{
     padding:2%;
