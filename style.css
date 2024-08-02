@@ -206,10 +206,8 @@ h1{
 .servicestext{
     padding:5%;
 }
-
-#container2
-{
-    margin-top: 5%;
+.servicescontainer .container{
+    margin-bottom:5%;
 }
 .servicebox1{
     height: auto;
